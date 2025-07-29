@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Header from "./Components/Header.jsx";
 import PanicCrisisArc from "./Components/PanicCrisisArc.jsx";
 import TeamConfiguration from "./Components/TeamConfiguration.jsx";
-import TrueCostOfPanic from "./Components/TrueCostOfPanic.jsx";
+import TrueCostOfPanic from "./Components/TrueCostofPanic.jsx";
 import ZeroMaintenanceSolution from "./Components/ZeroMaintenanceSolution.jsx";
 import ActionButtons from "./Components/ActionButtons.jsx";
 import StarBackground from "./Components/StarBackground.jsx";
