@@ -1,6 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import * as LucideIcons from "lucide-react";
+import DisplayField from "../Components/DisplayField.jsx";
+import CostAccumulator from "../Components/CostAccumulator.jsx";
 import {
   ResponsiveContainer,
   BarChart,
@@ -14,8 +16,6 @@ import {
   Pie,
   Cell,
 } from "recharts";
-import DisplayField from "./DisplayField";
-import CostAccumulator from "./CostAccumulator";
 
 const TrueCostOfPanic = ({
   wastedDeveloperTimePerBug,
