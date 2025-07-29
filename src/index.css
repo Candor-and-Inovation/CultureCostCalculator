@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+/* Global styles for dark mode */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0A0A0A;
+    /* Very dark background for the main app */
+    color: #E0E0E0;
+    /* Light text color for the main app */
+}
+
+/* Ensure the root element takes full height */
+#root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Custom Scrollbar for dark theme tables (optional but good for UX) */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    /* For horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track {
+    background: #1F2937;
+    /* Darker track */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4B5563;
+    /* Medium dark thumb */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #6B7280;
+    /* Lighter thumb on hover */
+}
