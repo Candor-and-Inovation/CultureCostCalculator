@@ -254,8 +254,9 @@ const ActionButtons = () => {
   };
 
   const handleAmazonBookRedirection = () => {
-    "https://www.amazon.in/Silent-Nods-Lost-Dollars-Psychological/dp/B0DCGQDNJF";
-    const amazonBookUrl = window.open(amazonBookUrl, "_blank");
+    const amazonBookUrl =
+      "https://www.amazon.in/Silent-Nods-Lost-Dollars-Psychological/dp/B0DCGQDNJF";
+    window.open(amazonBookUrl, "_blank");
   };
 
   return (
